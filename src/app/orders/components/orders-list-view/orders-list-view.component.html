@@ -1,0 +1,7 @@
+<h2>{{ orderStore.ordersCount() }}</h2>
+<br />
+@for (order of orderStore.orders(); track $index) {
+<h3>{{ order?.orderNumber }}</h3>
+<br />
+
+}
